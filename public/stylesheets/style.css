@@ -1,8 +1,41 @@
+@font-face{
+  font-family:"The Rainmaker";
+  src: url("../fonts/The Rainmaker.otf");
+}
+
+html{
+  height:100%;
+}
+
 body {
   padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  font: 24px "Gill Sans", Helvetica, Arial, sans-serif;
+  background: linear-gradient(hotpink, mintcream);
+  min-height:100%;
+}
+
+
+.nav li{
+  display:inline-block;
+  margin-right:50px;
+}
+
+.nav{
+  text-align:center;
 }
 
 a {
-  color: #0000FF;
+  text-decoration:none;
+  color: white;
+}
+
+a:hover {
+  color:red;
+  text-decoration:underline;
+}
+
+h1 {
+  font: 80px "The Rainmaker", Helvetica, Arial, sans-serif;
+  text-align: center;
+  color: white;
 }
