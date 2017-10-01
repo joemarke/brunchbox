@@ -7,12 +7,12 @@ html{
   height:100%;
 }
 
-body {
-  padding: 25px;
-  font: 26px "Gill Sans", Helvetica, Arial, sans-serif;
+body{
+  padding: 24px;
+  font: 24px "Gill Sans", Helvetica, Arial, sans-serif;
   background: linear-gradient(rgb(252,155,204), rgb(220,194,198));
   min-height:100%;
-    background-attachment:fixed;
+  background-attachment:fixed;
 }
 
 
@@ -25,16 +25,34 @@ body {
   text-align:center;
 }
 
-a {
+.socialmedia{
+  text-align:center;
+}
+
+.socialmedia a{
+  margin-right:20px;
+}
+
+a:hover img{
+  opacity: 1;
+}
+
+a img{
+  opacity: 0.7;
+  transition: all .3s;
+}
+
+
+a{
   position: relative;
   color: floralwhite;
   text-decoration: none;
 }
 
-a:hover {
+a:hover{
   color: floralwhite;
 }
-a:before {
+.nav a:before{
   content: "";
   position: absolute;
   width: 100%;
@@ -45,17 +63,17 @@ a:before {
   visibility: hidden;
   -webkit-transform: scaleX(0);
   transform: scaleX(0);
-  -webkit-transition: all 0.275s ease-in-out 0s;
-  transition: all 0.275s ease-in-out 0s;
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
 }
-a:hover:before {
+.nav a:hover:before{
   visibility: visible;
   -webkit-transform: scaleX(1);
   transform: scaleX(1);
 }
 
-h1 {
-  font: 100px "The Rainmaker", Helvetica, Arial, sans-serif;
+h1{
+  font: 110px "The Rainmaker", Helvetica, Arial, sans-serif;
   text-align: center;
   color: floralwhite;
 }
