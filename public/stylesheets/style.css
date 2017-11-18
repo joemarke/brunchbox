@@ -108,3 +108,14 @@ h2{
 .right div img {
   margin-bottom: 5px;
 }
+
+.videos {
+  height: 600px;
+  width: 35%;
+}
+
+.iframeholder {
+  margin-top: 50px;
+  text-align:center;
+  width:100%;
+}
