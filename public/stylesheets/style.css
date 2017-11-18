@@ -87,21 +87,25 @@ h2{
   margin-top: 120px;
 }
 
-.gallery div{
-  display:block;
-  float:left;
-  width:49%;
-  padding-right: 0px;
-  margin-top:30px;
+.gallery {
+  display: flex;
+  flex-direction: row;
+  margin-top: 50px;
+}
+.gallery div {
+  margin-right: 10px;
 }
 
-.left img{
-  float:none;
-  width:100%;
+.gallery img {
+  width: 100%;
+}
+.right {
+  display: flex;
+  flex-direction: column;
+  width: 126.4%;
 }
 
-.right img{
-  display:block;
-  margin-bottom: 12px;
-  width:100%;
+.right img {
+  flex-grow: 1;
+  margin-bottom: 10px;
 }
