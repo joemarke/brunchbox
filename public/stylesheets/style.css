@@ -1,121 +1,143 @@
-@font-face{
-  font-family:"The Rainmaker";
-  src: url("../fonts/The Rainmaker.otf");
+@font-face {
+    font-family: "The Rainmaker";
+    src: url("../fonts/The Rainmaker.otf");
 }
 
-html{
-  height:100%;
+html {
+    height: 100%;
 }
 
-body{
-  padding: 16px;
-  font: 24px "Gill Sans", Helvetica, Arial, sans-serif;
-  background: linear-gradient(rgb(252,155,204), rgb(220,194,198));
-  min-height:100%;
-  background-attachment:fixed;
+body {
+    padding: 16px, 16px, 0px, 16px;
+    font: 24px "Gill Sans", Helvetica, Arial, sans-serif;
+    background: linear-gradient(rgb(252, 155, 204), rgb(220, 194, 198));
+    min-height: 100%;
+    background-attachment: fixed;
 }
 
-
-.nav li{
-  display:inline-block;
-  margin-right:50px;
+.home {
+    background-image: url(/images/homepageboys/thegang5.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+    height: 100vh;
+    background-attachment: fixed;
 }
 
-.nav{
-  text-align:center;
+.nav li {
+    display: inline-block;
+    margin-right: 50px;
 }
 
-.socialmedia{
-  text-align:center;
+.nav {
+    text-align: center;
 }
 
-.socialmedia a{
-  margin-right:20px;
+.socialmedia {
+    text-align: center;
 }
 
-a:hover img{
-  opacity: 1;
+.socialmedia img {
+    width: 30px;
 }
 
-a img{
-  opacity: 0.7;
-  transition: all .3s;
+.socialmedia a {
+    margin-right: 3px;
 }
 
-
-a{
-  position: relative;
-  color: floralwhite;
-  text-decoration: none;
+a:hover img {
+    opacity: 1;
 }
 
-a:hover{
-  color: floralwhite;
-}
-.nav a:before{
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 2px;
-  bottom: 0;
-  left: 0;
-  background-color: floralwhite;
-  visibility: hidden;
-  -webkit-transform: scaleX(0);
-  transform: scaleX(0);
-  -webkit-transition: all 0.3s ease-in-out 0s;
-  transition: all 0.3s ease-in-out 0s;
-}
-.nav a:hover:before{
-  visibility: visible;
-  -webkit-transform: scaleX(1);
-  transform: scaleX(1);
+a img {
+    opacity: 0.7;
+    transition: all .3s;
 }
 
-h1{
-  font: 110px "The Rainmaker", Helvetica, Arial, sans-serif;
-  text-align: center;
-  color: floralwhite;
-  margin-top: 40px;
+a {
+    position: relative;
+    color: floralwhite;
+    text-decoration: none;
 }
 
-h2{
-  font:48px "Gills Sans", Helvetica, Arial, sans-serif;
-  font-style:italic;
-  text-align: center;
-  color: floralwhite;
-  margin-top: 120px;
+a:hover {
+    color: floralwhite;
+}
+
+.nav a:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: floralwhite;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+}
+
+.nav a:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+}
+
+h1 {
+    font: 110px "The Rainmaker", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: floralwhite;
+    margin-top: 40px;
+}
+
+h2 {
+    font: 48px "Gill Sans", Helvetica, Arial, sans-serif;
+    font-style: italic;
+    text-align: center;
+    color: floralwhite;
+    margin-top: 120px;
 }
 
 .gallery {
-  display: flex;
-  flex-direction: row;
-  margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    margin-top: 50px;
 }
+
 .gallery .left {
-  margin-right: 10px;
+    margin-right: 10px;
 }
 
 .gallery img {
-  width: 100%;
+    width: 100%;
 }
+
 .right {
-  display: flex;
-  flex-direction: column;
-  width: 126.4%;
+    display: flex;
+    flex-direction: column;
+    width: 126.4%;
 }
 
 .right div img {
-  margin-bottom: 5px;
+    margin-bottom: 5px;
 }
 
 .videos {
-  height: 600px;
-  width: 35%;
+    height: 600px;
+    width: 35%;
 }
 
 .iframeholder {
-  margin-top: 50px;
-  text-align:center;
-  width:100%;
+    margin-top: 50px;
+    text-align: center;
+    width: 100%;
+}
+
+.theboys x {
+    min-height: 700px;
+    height: auto;
+    background: url("/images/homepageboys/thegang2.png") no-repeat;
+    background-position: center bottom;
 }
