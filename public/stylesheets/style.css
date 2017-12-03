@@ -106,22 +106,23 @@ h2 {
     margin-top: 50px;
 }
 
-.gallery .left {
-    margin-right: 10px;
-}
 
 .gallery img {
     width: 100%;
 }
 
-.right {
+.right, .left {
     display: flex;
     flex-direction: column;
-    width: 126.4%;
+    width: 50%;
+}
+
+.left {
+    margin-right: 5px;
 }
 
 .right div img {
-    margin-bottom: 5px;
+    margin-bottom: 0px;
 }
 
 .videos {
