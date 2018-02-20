@@ -101,6 +101,14 @@ h2 {
     margin-top: 120px;
 }
 
+h3 {
+    font: 48px "Gill Sans", Helvetica, Arial, sans-serif;
+    text-align: center;
+    color: floralwhite;
+    margin-top: 50px;
+}
+
+
 .gallery {
     display: flex;
     flex-direction: row;
@@ -131,11 +139,22 @@ h2 {
     width: 35%;
 }
 
+
+iframe {
+    display: block;
+    width: 500px;
+    height: 500px;
+    margin: 0 auto;
+    border: 0;
+}
+
 .iframeholder {
     margin-top: 50px;
     text-align: center;
     width: 100%;
 }
+
+
 
 .theboys x {
     min-height: 700px;
